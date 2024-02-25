@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient( #16a085, #f4d03f);
+    height: 100vh;
+}
+#ans{
+    color: #f4d03f;
+}
+.calc{
+    font-size: 45px;
+    padding: 40px 0px 0px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    background-image: linear-gradient(to left, #0713f4, #cc07f3); 
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+.result{
+    font-size: 20px;
+}
+#ans{
+    font-size: 17px;
+}
+.calc-body {
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: 5px solid;
+    border-image: linear-gradient(to left, #104fe1, #e80b0b);
+    border-image-slice: 1;
+
+}
+
+.display {
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100%;
+    padding: 15px;
+    color: aliceblue;
+    background-color: rgba(8, 74, 0, 0.9); 
+
+}
+.set{
+    justify-content: end;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.btn {
+    border: none;
+    background: transparent;
+    margin: 5px;
+    height: 40px;
+    width: 72px;
+    color: black;
+    background-color: goldenrod;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn1 {
+    width: 159px;
+    color: black;
+    background-color: goldenrod;
+}
+.btn-del{
+    background-color: #e80b0b;
+}
+
+
+.buttons {
+    justify-content: center;
+    display: flex;
+}

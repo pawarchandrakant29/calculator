@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h2 class="calc">
+        Calculator
+    </h2>
+    <div class="calc-body">
+        <div class="display">
+            <div class="set">
+                <div class="set">
+                    <p class="result" id="result">
+                        
+                    </p>
+
+                </div>
+
+
+            </div>
+            <p id="ans" class="set">
+
+            </p>
+        </div>
+        <div class="buttons">
+            <div>
+                <div>
+                    <button class="btn btn-del" onclick="clearAll()">
+                        AC
+                    </button>
+                    <button class="btn" onclick="del()">
+                        C
+                    </button>
+                    <button class="btn" onclick="assign('%')">
+                        %
+                    </button>
+                    <button class="btn" onclick="assign('/')">
+                        ÷
+                    </button>
+                </div>
+                <div>
+                    <button class="btn" onclick="assign('7')">
+                        7
+                    </button>
+                    <button class="btn" onclick="assign('8')">
+                        8
+                    </button>
+                    <button class="btn" onclick="assign('9')">
+                        9
+                    </button>
+                    <button class="btn" onclick="assign('*')">
+                        x
+                    </button>
+                </div>
+                <div>
+                    <button class="btn" onclick="assign(4)">
+                        4
+                    </button>
+                    <button class="btn" onclick="assign(5)">
+                        5
+                    </button>
+                    <button class="btn" onclick="assign(6)">
+                        6
+                    </button>
+                    <button class="btn" onclick="assign('-')">
+                        -
+                    </button>
+                </div>
+                <div>
+                    <button class="btn" onclick="assign(1)">
+                        1
+                    </button>
+                    <button class="btn" onclick="assign(2)">
+                        2
+                    </button>
+                    <button class="btn" onclick="assign(3)">
+                        3
+                    </button>
+                    <button class="btn" onclick="assign('+')">
+                        +
+                    </button>
+                </div>
+                <div>
+                    <button class="btn" onclick="assign(0)">
+                        0
+                    </button>
+                    <button class="btn" onclick="assign('.')">
+                        .
+                    </button>
+                    <button class="btn1 btn" onclick="calculateResult()">
+                        =
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js">
+
+    </script>
+
+</body>
+
+</html>
